@@ -15,5 +15,5 @@ class Rectangle():
   return self._color
  
  def _repr_(self):
-  return f"Прямоугольник площадью {self._area}, цвет: (str(self._color))"
+  return f"Прямоугольник площадью {self._area}, цвет: {str(self._color)}"
 
